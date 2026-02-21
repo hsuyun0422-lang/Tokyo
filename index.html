@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>東京旅遊手冊 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>東京旅遊手冊</h1>
+  <div class="sub">TOKYO TRAVEL GUIDE 2026</div>
+  <div class="badge">March 3 – 7, 2026 ✦ 5 Days</div>
+</header>
+
+<nav id="mainnav">
+  <button class="active" onclick="switchTab('itinerary',this)">📅 行程總覽</button>
+  <button onclick="switchTab('nearby',this)">🗺️ 周邊景點</button>
+  <button onclick="switchTab('checklist',this)">✅ 行李清單</button>
+  <button onclick="switchTab('weather',this)">🌤️ 天氣穿搭</button>
+</nav>
+
+<!-- ITINERARY -->
+<div id="itinerary" class="sec on">
+  <div class="sec-title"><h2>🗓 五天行程</h2></div>
+
+  <div class="day-card red">
+    <div class="day-head"><div class="day-num">01</div><div><h3>淺草・藏前探索</h3><p>Mar. 3（Tue.）— 抵達日！</p></div></div>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-time">12:50</div><div class="tl-dot">✈️</div><div class="tl-body"><h4>抵達羽田機場</h4><p>落地、通關、領行李，迎接東京之旅！</p></div></div>
+      <div class="tl-item"><div class="tl-time">13:50–14:30</div><div class="tl-dot">🚇</div><div class="tl-body"><h4>羽田機場 → 淺草駅（A4出站）</h4><p>搭乘電車前往淺草，約40分鐘車程。</p><span class="tag">電車 40 min</span></div></div>
+      <div class="tl-item"><div class="tl-time">14:30–15:30</div><div class="tl-dot">⛩️</div><div class="tl-body"><h4>淺草寺・雷門</h4><p>東京最古老寺廟，穿越仲見世通商店街，打卡雷門大燈籠。</p><span class="tag">步行觀光</span></div></div>
+      <div class="tl-item"><div class="tl-time">15:30–16:00</div><div class="tl-dot">🚇</div><div class="tl-body"><h4>淺草駅 → 藏前駅</h4><p>都營大江戶線，約5分鐘。</p><span class="tag">電車 5 min</span></div></div>
+      <div class="tl-item"><div class="tl-time">16:00–17:30</div><div class="tl-dot">🏡</div><div class="tl-body"><h4>Poka Premium Kuramae 入住</h4><p>辦理 check-in，稍作休息，整理行李。</p><span class="tag">民宿</span></div></div>
+      <div class="tl-item last"><div class="tl-time">17:30–19:00</div><div class="tl-dot">🛍️</div><div class="tl-body"><h4>周邊百貨 + 晚餐</h4><p>逛逛藏前周邊小店與美食，享用第一晚晚餐。</p><span class="tag">購物 / 餐飲</span></div></div>
+    </div>
+  </div>
+
+  <div class="day-card red">
+    <div class="day-head"><div class="day-num">02</div><div><h3>河口湖・富士山絕景</h3><p>Mar. 4（Wed.）— 一日遊</p></div></div>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-time">07:00–08:00</div><div class="tl-dot">🍔</div><div class="tl-body"><h4>早餐 McDonald's</h4><p>藏前駅前步行9分鐘，輕鬆解決早餐。</p><span class="tag">步行 9 min</span></div></div>
+      <div class="tl-item"><div class="tl-time">08:30–10:30</div><div class="tl-dot">🚌</div><div class="tl-body"><h4>前往河口湖</h4><p>🎫 Klook 行程：一人約 $1,500，未滿3歲不佔位免費<br>🚐 10人包車：一車約 $15,500（人多划算）</p><span class="tag">約 2 hr 車程</span></div></div>
+      <div class="tl-item"><div class="tl-time">10:30–17:30</div><div class="tl-dot">🗻</div><div class="tl-body"><h4>河口湖五大景點</h4><p>富士山與湖景完美組合，拍攝絕景、漫步湖邊，享受大自然。</p><span class="tag">全天觀光</span></div></div>
+      <div class="tl-item"><div class="tl-time">17:30–19:00</div><div class="tl-dot">🚌</div><div class="tl-body"><h4>返回藏前</h4></div></div>
+      <div class="tl-item last"><div class="tl-time">19:00</div><div class="tl-dot">🍜</div><div class="tl-body"><h4>晚餐</h4><p>返回市區後覓食，可選擇藏前周邊餐廳。</p></div></div>
+    </div>
+  </div>
+
+  <div class="day-card red">
+    <div class="day-head"><div class="day-num">03</div><div><h3>東京巨蛋 WBC + 上野</h3><p>Mar. 5（Thu.）— 運動＆文化</p></div></div>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-time">08:00–09:00</div><div class="tl-dot">🍔</div><div class="tl-body"><h4>早餐 McDonald's</h4></div></div>
+      <div class="tl-item"><div class="tl-time">10:00–10:30</div><div class="tl-dot">🚇</div><div class="tl-body"><h4>藏前 → 東京巨蛋</h4><span class="tag">電車</span></div></div>
+      <div class="tl-item"><div class="tl-time">10:30–12:00</div><div class="tl-dot">📸</div><div class="tl-body"><h4>東京巨蛋周邊散步拍照</h4><p>巨蛋外圍、後樂園地區漫步拍照。</p></div></div>
+      <div class="tl-item"><div class="tl-time">12:00–15:30</div><div class="tl-dot">⚾</div><div class="tl-body"><h4>WBC 2026 Pool C — Australia vs Chinese Taipei</h4><p>為中華隊加油！不進場的夥伴可前往隔壁 LaQua 購物中心，有溫泉水樂園、美食街與各式商店。</p><span class="tag">⚾ 球賽</span> <span class="tag">🛍️ LaQua</span></div></div>
+      <div class="tl-item"><div class="tl-time">15:30–16:00</div><div class="tl-dot">🚇</div><div class="tl-body"><h4>春日駅 → 上野駅</h4><span class="tag">電車</span></div></div>
+      <div class="tl-item"><div class="tl-time">16:00–18:00</div><div class="tl-dot">🌸</div><div class="tl-body"><h4>上野公園 ＆ 阿美橫町</h4><p>上野公園漫步，接著逛阿美橫丁商店街買零食、藥妝。</p><span class="tag">公園</span> <span class="tag">購物街</span></div></div>
+      <div class="tl-item last"><div class="tl-time">18:00</div><div class="tl-dot">🍣</div><div class="tl-body"><h4>晚餐</h4><p>上野站周邊美食豐富，壽司、拉麵、居酒屋任選。</p></div></div>
+    </div>
+  </div>
+
+  <div class="day-card red">
+    <div class="day-head"><div class="day-num">04</div><div><h3>讀賣樂園 歡樂半日</h3><p>Mar. 6（Fri.）</p></div></div>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-time">08:00–09:00</div><div class="tl-dot">🍔</div><div class="tl-body"><h4>早餐 McDonald's</h4></div></div>
+      <div class="tl-item"><div class="tl-time">09:30–11:00</div><div class="tl-dot">🚇</div><div class="tl-body"><h4>藏前駅 → 京王よみうりランド駅</h4><p>搭乘 Bus 讀01 至讀賣樂園入口。</p><span class="tag">電車 + 巴士</span></div></div>
+      <div class="tl-item last"><div class="tl-time">11:00–18:00</div><div class="tl-dot">🎡</div><div class="tl-body"><h4>讀賣樂園（よみうりランド）</h4><p>7小時盡情玩！雲霄飛車、摩天輪、水上設施，3月另有溫室花卉活動 Hana Biyori。</p><span class="tag">🎢 遊樂設施</span> <span class="tag">🌷 花卉展</span></div></div>
+    </div>
+  </div>
+
+  <div class="day-card gold">
+    <div class="day-head"><div class="day-num">05</div><div><h3>鎌倉・江之島 歷史海岸</h3><p>Mar. 7（Sat.）— 最後一天！</p></div></div>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-time">08:00–09:00</div><div class="tl-dot">🍔</div><div class="tl-body"><h4>早餐 McDonald's</h4></div></div>
+      <div class="tl-item"><div class="tl-time">09:00–10:00</div><div class="tl-dot">🚇</div><div class="tl-body"><h4>藏前 → 鎌倉駅</h4><p>搭乘 JR 橫須賀線，約55–65分鐘抵達鎌倉。</p><span class="tag">JR 約 60 min</span></div></div>
+      <div class="tl-item"><div class="tl-time">10:00–10:30</div><div class="tl-dot">🛍️</div><div class="tl-body"><h4>小町通商店街</h4><p>鎌倉最熱鬧的購物街，鴿子餅乾、抹茶甜點、各式伴手禮，邊走邊吃超好逛！</p><span class="tag">購物 / 美食</span></div></div>
+      <div class="tl-item"><div class="tl-time">10:30–11:30</div><div class="tl-dot">⛩️</div><div class="tl-body"><h4>鶴岡八幡宮</h4><p>鎌倉最重要的神社，供奉源氏守護神，長長的参道與大石段是必拍景點。</p><span class="tag">步行觀光</span></div></div>
+      <div class="tl-item"><div class="tl-time">11:30–12:30</div><div class="tl-dot">🍜</div><div class="tl-body"><h4>午餐</h4><p>鎌倉名物「しらす丼（白魚丼）」是當地限定必吃，或品嘗海鮮定食。</p><span class="tag">在地美食</span></div></div>
+      <div class="tl-item"><div class="tl-time">12:30–13:30</div><div class="tl-dot">🚌</div><div class="tl-body"><h4>鎌倉駅 → 長谷駅</h4><p>搭乘江之島電鐵（江之電），沿海岸線行駛，車窗就能看到大海！</p><span class="tag">江之電 約 10 min</span></div></div>
+      <div class="tl-item"><div class="tl-time">13:30–14:15</div><div class="tl-dot">🙏</div><div class="tl-body"><h4>長谷寺</h4><p>以9公尺高的木造觀音像聞名，寺內繡球花（6月）或梅花（3月）盛開，俯瞰鎌倉海景超美。</p><span class="tag">門票 ¥400</span></div></div>
+      <div class="tl-item"><div class="tl-time">14:15–15:00</div><div class="tl-dot">🗿</div><div class="tl-body"><h4>鎌倉大佛（高德院）</h4><p>日本三大佛之一，露天青銅大佛高達11.3公尺，可以進入大佛內部參觀！</p><span class="tag">門票 ¥300</span></div></div>
+      <div class="tl-item"><div class="tl-time">15:00–16:00</div><div class="tl-dot">🚃</div><div class="tl-body"><h4>長谷駅 → 鎌倉高校前駅</h4><p>漫畫《灌籃高手》名場景！在海邊平交道拍下經典畫面，背景是湘南海岸。</p><span class="tag">江之電 約 5 min</span> <span class="tag">📸 必拍打卡</span></div></div>
+      <div class="tl-item"><div class="tl-time">16:00–17:30</div><div class="tl-dot">🏝️</div><div class="tl-body"><h4>江之島</h4><p>搭乘江之電至江之島駅，步行過橋上島，參觀江島神社、海蝕洞窟，欣賞夕陽海景。</p><span class="tag">江之電 約 5 min</span> <span class="tag">岩屋洞窟 ¥500</span></div></div>
+      <div class="tl-item last"><div class="tl-time">17:30–19:00</div><div class="tl-dot">🚇</div><div class="tl-body"><h4>返回藏前 / 晚餐</h4><p>搭乘小田急線至新宿，再轉乘電車返回藏前。或在新宿享用回程晚餐！</p><span class="tag">小田急+電車 約 75 min</span></div></div>
+    </div>
+    <div class="info-box" style="margin:0 20px 20px;">
+      🎌 <strong>Mimi 韓推薦參考：</strong><a href="https://mimigo.tw/kamakura/" target="_blank" style="color:var(--red)">鎌倉・江之島一日遊完整攻略</a> — 含詳細交通、景點說明與美食推薦。<br>
+      🎫 <strong>交通票券：</strong>建議購買「<strong>鎌倉・江之島フリーパス</strong>」（¥1,640），江之電無限搭乘+小田急電鐵折扣，超划算！
+    </div>
+  </div>
+</div>
+
+<!-- NEARBY -->
+<div id="nearby" class="sec">
+  <div class="sec-title"><h2>🗺️ 周邊熱門景點</h2></div>
+  <p class="intro">如果對當天規劃行程沒興趣，以下是各據點附近的熱門景點及交通方式：</p>
+
+  <div class="area-label">🏮 藏前・淺草周邊（民宿出發）</div>
+  <div class="spot-grid">
+    <div class="spot-card"><div class="spot-icon">🏮</div><h3>仲見世通商店街</h3><p>日本最古老商店街之一，伴手禮、零食、傳統小物一應俱全。</p><div class="trans-wrap"><span class="trans-tag">🚶 步行 15 min</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🏞️</div><h3>隅田公園</h3><p>沿隅田川的美麗公園，3月末可見早開櫻花，春日散步首選。</p><div class="trans-wrap"><span class="trans-tag">🚶 步行 10 min</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🗼</div><h3>東京晴空塔</h3><p>634m 日本第一高塔，俯瞰整個大東京都會區，夜景超美。</p><div class="trans-wrap"><span class="trans-tag">🚇 押上駅 5 min</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🎨</div><h3>藏前文青小店</h3><p>東京最文青的下町，手工皮革、文具、咖啡館隨處可見。</p><div class="trans-wrap"><span class="trans-tag">🚶 民宿周邊步行</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🛍️</div><h3>合羽橋道具街</h3><p>廚具、餐具、食品模型聖地，買些有趣的日本料理道具！</p><div class="trans-wrap"><span class="trans-tag">🚶 步行 20 min</span><span class="trans-tag">🚇 田原町駅</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🌊</div><h3>淺草水上巴士</h3><p>從淺草搭船到御台場或豐洲，東京灣景超過癮！</p><div class="trans-wrap"><span class="trans-tag">⛴️ 淺草乘船處</span><span class="trans-tag">約 50 min</span></div></div>
+  </div>
+
+  <div class="area-label mt">🎡 讀賣樂園周邊（D4 替代方案）</div>
+  <div class="spot-grid">
+    <div class="spot-card"><div class="spot-icon">🌷</div><h3>Hana Biyori 花卉植物館</h3><p>讀賣樂園內的溫室花卉展，3月有各種春季花卉，老少皆宜。</p><div class="trans-wrap"><span class="trans-tag">🎡 樂園內部</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🏞️</div><h3>生田綠地</h3><p>川崎市大型自然公園，有日本民家園、岡本太郎美術館。</p><div class="trans-wrap"><span class="trans-tag">🚇 向ヶ丘遊園駅</span><span class="trans-tag">🚶 步行 20 min</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🛍️</div><h3>溝の口商店街</h3><p>熱鬧的在地商店街，購物、美食、居酒屋一條街。</p><div class="trans-wrap"><span class="trans-tag">🚇 溝の口駅 近</span></div></div>
+  </div>
+
+  <div class="area-label mt">⛩️ 上野・東京巨蛋周邊（D3 替代方案）</div>
+  <div class="spot-grid">
+    <div class="spot-card"><div class="spot-icon">🦕</div><h3>東京國立博物館</h3><p>日本最大博物館，收藏超過11萬件珍品，涵蓋日本與亞洲文物。</p><div class="trans-wrap"><span class="trans-tag">🚶 上野公園內</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🐼</div><h3>上野動物園</h3><p>日本最老動物園，有超萌大熊貓！適合親子同遊。</p><div class="trans-wrap"><span class="trans-tag">🚶 上野公園內</span><span class="trans-tag">門票 ¥600</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🍜</div><h3>秋葉原</h3><p>電器、動漫、電玩天堂，距上野僅一站。</p><div class="trans-wrap"><span class="trans-tag">🚇 JR 山手線 1站</span></div></div>
+    <div class="spot-card"><div class="spot-icon">🌺</div><h3>小石川後樂園</h3><p>東京巨蛋旁的江戶時代迴遊式庭園，梅花與早春花卉盛開。</p><div class="trans-wrap"><span class="trans-tag">🚶 巨蛋旁 5 min</span><span class="trans-tag">門票 ¥300</span></div></div>
+  </div>
+</div>
+
+<!-- CHECKLIST -->
+<div id="checklist" class="sec">
+  <div class="sec-title"><h2>✅ 行李準備清單</h2></div>
+  <p class="intro">選擇適合的版本，打勾確認已準備好的物品！</p>
+
+  <div class="age-tabs">
+    <button class="age-btn active" onclick="switchAge('adult',this)">👨‍👩‍👧 大人版</button>
+    <button class="age-btn" onclick="switchAge('child',this)">🧒 幼童版（3-12歲）</button>
+    <button class="age-btn" onclick="switchAge('baby',this)">👶 嬰兒版（0-2歲）</button>
+  </div>
+
+  <div id="adult" class="cl-ver on">
+    <div class="cl-grid">
+      <div class="cl-sec"><h4>📄 重要證件</h4>
+        <label class="cl-item"><input type="checkbox"><span>護照（有效期6個月以上）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>電子簽證 / 入境資料</span></label>
+        <label class="cl-item"><input type="checkbox"><span>信用卡（VISA / Master）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>日幣現金（建議 ¥30,000+）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>海外旅遊保險</span></label>
+        <label class="cl-item"><input type="checkbox"><span>訂房確認單（截圖）</span></label>
+      </div>
+      <div class="cl-sec"><h4>👔 衣物（白天13°C / 夜晚6°C）</h4>
+        <label class="cl-item"><input type="checkbox"><span>保暖外套（厚度中等）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>毛衣 / 針織衫 x2</span></label>
+        <label class="cl-item"><input type="checkbox"><span>長袖上衣 x4</span></label>
+        <label class="cl-item"><input type="checkbox"><span>長褲 x2</span></label>
+        <label class="cl-item"><input type="checkbox"><span>舒適步行鞋</span></label>
+        <label class="cl-item"><input type="checkbox"><span>圍巾 / 脖圍</span></label>
+        <label class="cl-item"><input type="checkbox"><span>雨傘 / 摺疊傘</span></label>
+        <label class="cl-item"><input type="checkbox"><span>保暖內衣褲</span></label>
+      </div>
+      <div class="cl-sec"><h4>💊 藥品保健</h4>
+        <label class="cl-item"><input type="checkbox"><span>感冒藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>胃藥 / 腸胃藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>止痛藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>暈車藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>OK繃 / 防磨腳貼</span></label>
+        <label class="cl-item"><input type="checkbox"><span>個人常備藥</span></label>
+      </div>
+      <div class="cl-sec"><h4>📱 3C 電子</h4>
+        <label class="cl-item"><input type="checkbox"><span>手機充電器 + 行動電源</span></label>
+        <label class="cl-item"><input type="checkbox"><span>日本轉接頭（A型，台灣可直插）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>網路 SIM 卡 / eSIM</span></label>
+        <label class="cl-item"><input type="checkbox"><span>相機 + 充電器</span></label>
+        <label class="cl-item"><input type="checkbox"><span>耳機</span></label>
+      </div>
+      <div class="cl-sec"><h4>🧴 盥洗保養</h4>
+        <label class="cl-item"><input type="checkbox"><span>保濕乳液（3月偏乾燥）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>護唇膏</span></label>
+        <label class="cl-item"><input type="checkbox"><span>防曬 SPF30+</span></label>
+        <label class="cl-item"><input type="checkbox"><span>牙刷 / 牙膏</span></label>
+        <label class="cl-item"><input type="checkbox"><span>洗髮精 / 沐浴乳（小瓶）</span></label>
+      </div>
+      <div class="cl-sec"><h4>🎡 讀賣樂園特備</h4>
+        <label class="cl-item"><input type="checkbox"><span>舒適運動鞋</span></label>
+        <label class="cl-item"><input type="checkbox"><span>小背包 / 腰包</span></label>
+        <label class="cl-item"><input type="checkbox"><span>零食 / 能量棒</span></label>
+        <label class="cl-item"><input type="checkbox"><span>保溫水壺</span></label>
+      </div>
+    </div>
+  </div>
+
+  <div id="child" class="cl-ver">
+    <div class="cl-grid">
+      <div class="cl-sec"><h4>📄 證件</h4>
+        <label class="cl-item"><input type="checkbox"><span>兒童護照</span></label>
+        <label class="cl-item"><input type="checkbox"><span>戶口謄本（備用）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>健保卡影本</span></label>
+      </div>
+      <div class="cl-sec"><h4>👕 衣物</h4>
+        <label class="cl-item"><input type="checkbox"><span>保暖外套（防風為佳）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>長袖上衣 x4</span></label>
+        <label class="cl-item"><input type="checkbox"><span>保暖內衣 x2</span></label>
+        <label class="cl-item"><input type="checkbox"><span>舒適防滑鞋</span></label>
+        <label class="cl-item"><input type="checkbox"><span>手套 + 帽子</span></label>
+        <label class="cl-item"><input type="checkbox"><span>換洗衣物 x4</span></label>
+      </div>
+      <div class="cl-sec"><h4>💊 藥品保健</h4>
+        <label class="cl-item"><input type="checkbox"><span>兒童感冒藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>兒童退燒藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>腸胃藥（兒童劑量）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>暈車藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>防磨腳貼 / OK繃</span></label>
+        <label class="cl-item"><input type="checkbox"><span>體溫計</span></label>
+      </div>
+      <div class="cl-sec"><h4>🎒 隨身必備</h4>
+        <label class="cl-item"><input type="checkbox"><span>小背包（讓孩子自己背）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>零食 / 餅乾</span></label>
+        <label class="cl-item"><input type="checkbox"><span>保溫水壺</span></label>
+        <label class="cl-item"><input type="checkbox"><span>濕紙巾 x2包</span></label>
+        <label class="cl-item"><input type="checkbox"><span>安撫玩具 / 小公仔</span></label>
+        <label class="cl-item"><input type="checkbox"><span>迷你折疊傘</span></label>
+      </div>
+      <div class="cl-sec"><h4>🎡 樂園特別準備</h4>
+        <label class="cl-item"><input type="checkbox"><span>防走失手環 / 名牌</span></label>
+        <label class="cl-item"><input type="checkbox"><span>身份證件影本放兒童身上</span></label>
+        <label class="cl-item"><input type="checkbox"><span>兒童防曬</span></label>
+        <label class="cl-item"><input type="checkbox"><span>輕便推車（視年齡）</span></label>
+      </div>
+    </div>
+  </div>
+
+  <div id="baby" class="cl-ver">
+    <div class="cl-grid">
+      <div class="cl-sec"><h4>🍼 飲食</h4>
+        <label class="cl-item"><input type="checkbox"><span>奶粉（帶足量 + 備用）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>奶瓶 x2</span></label>
+        <label class="cl-item"><input type="checkbox"><span>奶瓶刷 + 洗潔劑</span></label>
+        <label class="cl-item"><input type="checkbox"><span>副食品（適合月齡）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>湯匙 / 軟頭叉</span></label>
+        <label class="cl-item"><input type="checkbox"><span>保溫瓶（熱水沖奶用）</span></label>
+      </div>
+      <div class="cl-sec"><h4>🩺 醫療保健</h4>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒退燒藥（栓劑）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒感冒藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒腸胃藥</span></label>
+        <label class="cl-item"><input type="checkbox"><span>體溫計</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒乳液（保濕）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒防曬乳</span></label>
+        <label class="cl-item"><input type="checkbox"><span>健康手冊影本</span></label>
+      </div>
+      <div class="cl-sec"><h4>👶 日用必需</h4>
+        <label class="cl-item"><input type="checkbox"><span>紙尿布（帶足量！）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>濕紙巾 x5包</span></label>
+        <label class="cl-item"><input type="checkbox"><span>臀霜 / 護臀膏</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒手口濕巾</span></label>
+        <label class="cl-item"><input type="checkbox"><span>防水墊 / 尿墊</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒浴巾</span></label>
+      </div>
+      <div class="cl-sec"><h4>👕 衣物</h4>
+        <label class="cl-item"><input type="checkbox"><span>保暖嬰兒外套</span></label>
+        <label class="cl-item"><input type="checkbox"><span>包屁衣 x5+</span></label>
+        <label class="cl-item"><input type="checkbox"><span>保暖腳套 / 嬰兒鞋</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒帽子</span></label>
+        <label class="cl-item"><input type="checkbox"><span>手套（防寒）</span></label>
+      </div>
+      <div class="cl-sec"><h4>🚼 外出裝備</h4>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒推車（可登機型）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>揹巾 / 背帶</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒雨罩（推車用）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>外出折疊換尿墊</span></label>
+        <label class="cl-item"><input type="checkbox"><span>安撫奶嘴 x3</span></label>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒手搖玩具</span></label>
+      </div>
+      <div class="cl-sec"><h4>💤 睡眠</h4>
+        <label class="cl-item"><input type="checkbox"><span>嬰兒睡袋（薄款）</span></label>
+        <label class="cl-item"><input type="checkbox"><span>安撫玩偶</span></label>
+        <label class="cl-item"><input type="checkbox"><span>白噪音機 / App</span></label>
+      </div>
+    </div>
+    <div class="info-box">💡 <strong>小提示：</strong>日本藥妝店可買到部分嬰兒用品，但奶粉品牌可能不同，建議自行攜帶足夠份量。D2 河口湖未滿3歲不佔位免費，但車程約2小時，請備足食物和娛樂道具。</div>
+  </div>
+</div>
+
+<!-- WEATHER -->
+<div id="weather" class="sec">
+  <div class="sec-title"><h2>🌤️ 天氣與穿搭建議</h2></div>
+  <div class="w-note">
+    📊 <strong>根據歷年氣象數據（2010–2025）推估：</strong><br>
+    東京3月初平均氣溫 <strong>白天 10–13°C</strong>，<strong>夜晚 4–6°C</strong>，溫差約7°C。降雨機率約33%，建議隨身攜帶摺疊傘。早春微風涼爽，體感比實際溫度更冷。
+  </div>
+  <h3 class="sub-h">📅 五天天氣預估</h3>
+  <div class="w-grid">
+    <div class="w-card"><div class="w-day">D1 · Mar. 3 (Tue.)</div><div class="w-icon">⛅</div><div class="w-temp">11°C <span>/ 5°C</span></div><div class="w-rain">☔ 降雨 25%</div><div class="w-note2">多雲時晴，微風</div></div>
+    <div class="w-card"><div class="w-day">D2 · Mar. 4 (Wed.)</div><div class="w-icon">🌤️</div><div class="w-temp">12°C <span>/ 4°C</span></div><div class="w-rain">☔ 降雨 20%</div><div class="w-note2">河口湖山區更冷 ±2°C</div></div>
+    <div class="w-card"><div class="w-day">D3 · Mar. 5 (Thu.)</div><div class="w-icon">🌧️</div><div class="w-temp">10°C <span>/ 5°C</span></div><div class="w-rain">☔ 降雨 40%</div><div class="w-note2">可能有雨，帶傘必備</div></div>
+    <div class="w-card"><div class="w-day">D4 · Mar. 6 (Fri.)</div><div class="w-icon">🌤️</div><div class="w-temp">13°C <span>/ 6°C</span></div><div class="w-rain">☔ 降雨 25%</div><div class="w-note2">樂園好天氣，陽光和煦</div></div>
+    <div class="w-card"><div class="w-day">D5 · Mar. 7 (Sat.)</div><div class="w-icon">🌤️</div><div class="w-temp">13°C <span>/ 6°C</span></div><div class="w-rain">☔ 降雨 30%</div><div class="w-note2">鎌倉海風較強，體感偏涼</div></div>
+  </div>
+  <h3 class="sub-h">👗 穿搭建議</h3>
+  <div class="o-grid">
+    <div class="o-card"><h4>🌅 早晨出門（5–8°C）</h4><ul><li>保暖內衣打底</li><li>毛衣或厚針織衫</li><li>中厚外套（可拆式最佳）</li><li>圍巾必帶</li><li>手套（可選）</li></ul></div>
+    <div class="o-card"><h4>☀️ 白天活動（11–13°C）</h4><ul><li>外套可解開或脫下</li><li>長袖上衣 + 薄毛衣</li><li>舒適步行長褲</li><li>防滑舒適鞋（走路多！）</li><li>小背包裝外套</li></ul></div>
+    <div class="o-card"><h4>🌙 傍晚夜間（4–6°C）</h4><ul><li>外套全程穿上</li><li>圍巾 / 脖圍</li><li>建議穿保暖內衣</li><li>可多帶薄背心一件</li></ul></div>
+    <div class="o-card"><h4>🗻 D2 河口湖特別提示</h4><ul><li>比東京低 2–4°C</li><li>防風外套必備</li><li>不建議穿裙子</li><li>戴耳罩或帽子</li><li>防曬仍需要（高原紫外線強）</li></ul></div>
+    <div class="o-card"><h4>🎡 D4 讀賣樂園特別提示</h4><ul><li>以方便活動為主</li><li>避免長裙或鬆散衣物</li><li>運動鞋必備</li><li>小腰包最方便</li><li>防曬補擦</li></ul></div>
+    <div class="o-card"><h4>☔ 雨天對策（D3 最可能）</h4><ul><li>摺疊傘隨時備用</li><li>避免白色淺色褲子</li><li>防水鞋或備鞋套</li><li>防潑水外套加分</li><li>巨蛋室內活動不受影響 ✅</li></ul></div>
+    <div class="o-card"><h4>🏖️ D5 鎌倉・江之島特別提示</h4><ul><li>沿海風大，圍巾 / 脖圍必帶</li><li>步行量大，舒適鞋超重要</li><li>準備防潑水外套防海風</li><li>帶零錢（神社參拜、洞窟門票）</li><li>江之電人多，請勿在平交道逗留過久</li></ul></div>
+  </div>
+  <div class="info-box">🌸 <strong>賞花小提示：</strong>東京2026年染井吉野櫻預計3月下旬開花，3月3–6日可見早開的梅花與山茱萸，上野公園是首選！<br>⚠️ <strong>氣象免責聲明：</strong>以上根據歷年平均值推估，出發前請確認 AccuWeather 最新預報。</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
